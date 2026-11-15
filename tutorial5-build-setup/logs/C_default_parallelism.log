@@ -1,0 +1,5 @@
+$ uv sync --extra models
+Resolved 254 packages in 13ms
+   Building vc-object-store @ file:///home/tester/villa/vc_object_store
+   Building vc-reader @ file:///home/tester/villa/vc_reader
+   Building volume-cartographer @ file:///home/tester/villa/volume-cartographer

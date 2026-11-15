@@ -1,0 +1,9 @@
+[Sun Nov 15 23:31:42 2026] cc1plus invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[Sun Nov 15 23:31:42 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/init.scope,task=(sd-pam),pid=27084,uid=1000
+[Sun Nov 15 23:31:42 2026] Out of memory: Killed process 27084 ((sd-pam)) total-vm:21180kB, anon-rss:704kB, file-rss:888kB, shmem-rss:0kB, UID:1000 pgtables:76kB oom_score_adj:100
+[Sun Nov 15 23:32:23 2026] cc1plus invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[Sun Nov 15 23:32:23 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/init.scope,task=systemd,pid=27083,uid=1000
+[Sun Nov 15 23:32:23 2026] Out of memory: Killed process 27083 (systemd) total-vm:20048kB, anon-rss:384kB, file-rss:736kB, shmem-rss:0kB, UID:1000 pgtables:76kB oom_score_adj:100
+[Sun Nov 15 23:33:21 2026] systemd-journal invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-250
+[Sun Nov 15 23:33:21 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/init.scope,task=cc1plus,pid=28034,uid=1000
+[Sun Nov 15 23:33:21 2026] Out of memory: Killed process 28034 (cc1plus) total-vm:452216kB, anon-rss:124504kB, file-rss:904kB, shmem-rss:0kB, UID:1000 pgtables:916kB oom_score_adj:0

@@ -1,0 +1,7 @@
+$ UV_CONCURRENT_BUILDS=1 CMAKE_BUILD_PARALLEL_LEVEL=3 uv sync --extra models
+Using CPython 3.14.10
+Creating virtual environment at: .venv
+Resolved 254 packages in 10ms
+   Building vc-object-store @ file:///home/tester/villa/vc_object_store
+   Building vc-reader @ file:///home/tester/villa/vc_reader
+   Building volume-cartographer @ file:///home/tester/villa/volume-cartographer

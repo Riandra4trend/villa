@@ -1,0 +1,19 @@
+$ sudo bash ../volume-cartographer/scripts/install_build_deps.sh minimal-build   # from villa/vesuvius, as documented
+python3 is already the newest version (3.12.3-0ubuntu2.1).
+0 upgraded, 0 newly installed, 0 to remove and 75 not upgraded.
+[exit code 0]
+
+$ uv run --extra models python -c "import torch; print(torch.__version__, '| cuda:', torch.cuda.is_available())"
+2.12.1+cu130 | cuda: True
+[exit code 0]
+
+$ uv run --extra models python -m vesuvius.ink_detection.inference.infer surface-volume.zarr step-075000.pth pred.tif --overlap 0.5 --blend-mode hann --batch-size 16
+[2026-11-16 05:22:15,307] INFO Selected source layer indices=[7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+[2026-11-16 05:22:15,308] INFO Input level=0 shape=(depth=31, height=2160, width=2240) chunks=(128, 128) patch=128 stride=64 requested_overlap=0.500 blend_mode=hann tta_mirror=False
+[2026-11-16 05:22:15,315] INFO Selected 684 patches for inference
+[2026-11-16 05:22:15,316] INFO Output bounds=(0, 2160, 0, 2240) shape=(2160, 2240); parent patch grid retained
+Using CUDA device
+[exit code 0 after 109 s]
+-rw-r--r-- 1 tester tester 1564926 Nov 16 05:23 /home/tester/data/pred.tif
+sha256 here:        fb9212451aa9943b33ced58b5c201f46719836922944c1796cbdaaca7f839758
+sha256 main distro: 50165258cf8eea925454d13a2779427b41ee99b840b3f17c0698aefb6dbe3d10

@@ -1,0 +1,16 @@
+23:30:16 avail_mb=6956 swap_used_mb=0 cc1plus=0 load=2.12
+23:30:22 avail_mb=6890 swap_used_mb=0 cc1plus=0 load=1.95
+23:30:27 avail_mb=6839 swap_used_mb=0 cc1plus=0 load=2.03
+23:30:32 avail_mb=6877 swap_used_mb=0 cc1plus=0 load=2.11
+23:30:37 avail_mb=6893 swap_used_mb=0 cc1plus=0 load=2.18
+23:30:42 avail_mb=6922 swap_used_mb=0 cc1plus=0 load=2.33
+23:30:46 avail_mb=6903 swap_used_mb=0 cc1plus=0 load=2.46
+23:30:51 avail_mb=4866 swap_used_mb=0 cc1plus=18 load=3.87
+23:30:56 avail_mb=3749 swap_used_mb=0 cc1plus=18 load=5.16
+23:31:02 avail_mb=3058 swap_used_mb=0 cc1plus=18 load=6.35
+23:31:07 avail_mb=1619 swap_used_mb=0 cc1plus=36 load=8.80
+23:31:12 avail_mb=526 swap_used_mb=0 cc1plus=36 load=11.22
+23:31:18 avail_mb=269 swap_used_mb=1 cc1plus=35 load=13.29
+23:31:23 avail_mb=84 swap_used_mb=248 cc1plus=36 load=15.10
+23:31:28 avail_mb=83 swap_used_mb=914 cc1plus=36 load=17.42
+23:31:36 avail_mb=43 swap_used_mb=2042 cc1plus=36 load=24.16

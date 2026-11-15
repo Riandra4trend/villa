@@ -1,0 +1,9 @@
+os: Ubuntu 24.04.5 LTS
+kernel: 6.18.33.2-microsoft-standard-WSL2
+cpus: 16
+MemTotal:        7829148 kB
+SwapTotal:       2097152 kB
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+cmake version 3.28.3
+uv 0.13.8 (x86_64-unknown-linux-gnu)
+2d3fb38d33a18b257230c0bd23986436c3d4722e

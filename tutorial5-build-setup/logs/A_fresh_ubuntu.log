@@ -1,0 +1,41 @@
+$ uv sync --extra models
+Downloading cpython-3.14.10-linux-x86_64-gnu (download) (35.2MiB)
+ Downloaded cpython-3.14.10-linux-x86_64-gnu (download)
+Using CPython 3.14.10
+Creating virtual environment at: .venv
+Resolved 254 packages in 19.18s
+   Building vesuvius @ file:///home/tester/villa/vesuvius
+   Building vc-object-store @ file:///home/tester/villa/vc_object_store
+   Building vc-reader @ file:///home/tester/villa/vc_reader
+   Building volume-cartographer @ file:///home/tester/villa/volume-cartographer
+   Building villa-gpu-manager @ file:///home/tester/villa/gpu_manager
+      Built villa-gpu-manager @ file:///home/tester/villa/gpu_manager
+      Built vesuvius @ file:///home/tester/villa/vesuvius
+error: Failed to build `vc-reader @ file:///home/tester/villa/vc_reader`
+  cause: The build backend returned an error
+  cause: Call to `scikit_build_core.build.build_editable` failed (exit status: 1)
+
+         [stdout]
+         *** scikit-build-core 1.1.2 using CMake 4.4.5 (editable)
+         *** Configuring CMake...
+         loading initial cache file build/cp314-cp314-linux_x86_64/CMakeInit.txt
+         -- Configuring incomplete, errors occurred!
+
+         [stderr]
+         CMake Error at /mnt/wsl/uvcache/builds-v0/.tmpuyJCr7/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:48 (message):
+           Could not find the compiler specified in the environment variable CC:
+
+           cc.
+         Call Stack (most recent call first):
+           CMakeLists.txt:2 (project)
+
+
+         CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+         CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+
+         *** CMake configuration failed
+
+hint: `vc-reader` was included because `vesuvius[models]` depends on `vc-reader`
+
+hint: Build failures usually indicate a problem with the package or the build environment
+[exit code 1 after 16816 s]
