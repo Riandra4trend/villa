@@ -1,0 +1,47 @@
+{
+  "area_cm2": 4.014255570195063,
+  "area_vx2": 5377463.845982714,
+  "bbox": [
+    [
+      4743.97412109375,
+      4655.51025390625,
+      5323.60205078125
+    ],
+    [
+      5991.0869140625,
+      6222.97509765625,
+      7495.22314453125
+    ]
+  ],
+  "elapsed_time_s": 1832.014793327,
+  "format": "tifxyz",
+  "growth_method": "streamline",
+  "max_gen": 58,
+  "scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "scroll_source": "PHerc0175A",
+  "seed": [
+    5826.5,
+    5358.5,
+    6374.5
+  ],
+  "source": "vc_grow_seg_from_seed",
+  "target_volume": "20250521115057-8.640um-1.2m-116keV-masked.zarr",
+  "type": "seg",
+  "uuid": "f8e98ec3-d4ea-499f-902a-af73a2061d64",
+  "vc_gsfs_mode": "explicit_seed",
+  "vc_gsfs_params": {
+    "cache_size": 2000000000,
+    "generations": 58,
+    "growth_method": "streamline",
+    "min_area_cm": 0,
+    "mode": "seed",
+    "step_size": 20,
+    "thread_limit": 8,
+    "walk_integrator": "rk4",
+    "walk_step_size": 2
+  },
+  "vc_gsfs_version": "dev"
+}

@@ -1,0 +1,3 @@
+{"mode": "seed", "growth_method": "streamline", "generations": 58, "step_size": 20,
+ "walk_step_size": 2, "walk_integrator": "rk4", "thread_limit": 8, "min_area_cm": 0,
+ "cache_size": 2000000000}

@@ -1,0 +1,16 @@
+  tile 175/550 (31%)  171.9 tiles/s  0m01s  eta 0m02s  tile 295/550 (53%)  144.7 tiles/s  0m02s  eta 0m01s  tile 375/550 (68%)  122.5 tiles/s  0m03s  eta 0m01s  tile 550/550 (100%)  134.5 tiles/s  0m04s  eta 0m00s
+Remote zarr streaming: https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0175A/volumes/20250521115057-8.640um-1.2m-116keV-masked.zarr
+zarr dataset size for group 0 [12748 9363 9363 ]
+Source dtype: uint8
+chunk shape [128 128 128 ]
+Voxel size (command line): 8.64 micrometer
+Surface interpolation: bicubic
+Rendering: tifxyz/flatten.tifxyz -> surface-volume.zarr (zarr)
+ds_level=0 ds_scale=1 sA=1 Pg=1 render_scale=1
+rendering 3080x2720 at scale 1 crop [3080×2720 from (0,0)]
+[pyramid] building from L0...
+[pyramid L1] 143 chunks
+[pyramid L2] 42 chunks
+[pyramid L3] 12 chunks
+[pyramid L4] 4 chunks
+[pyramid L5] 1 chunks
