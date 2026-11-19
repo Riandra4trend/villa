@@ -1,0 +1,4 @@
+w035: preds/native9_w035_step-075000_forward_191126.tif 5240 x 5820 px, 27281152 nonzero pixels, highest value 227/255
+w035, folder mode against single mode: 633306 of 30496800 pixels differ, largest difference 1/255
+w039: preds/native9_w039_step-075000_forward_191126.tif 7720 x 8560 px, 44014592 nonzero pixels, highest value 225/255
+wrote folder_mode_predictions.png 1994 x 1144 px

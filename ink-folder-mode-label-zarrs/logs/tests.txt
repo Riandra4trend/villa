@@ -1,0 +1,10 @@
+== new test, inference code of main (0bddf2757)
+E       AssertionError: assert [] == [PosixPath('/...volume.zarr')]
+E         
+E         Right contains one more item: PosixPath('/tmp/pytest-of-riand/pytest-0/test_folder_mode_runs_a_segmen0/w035/surface-volume.zarr')
+E         Use -v to get more diff
+1 failed, 1 warning in 5.73s
+== new test, this branch (7c9984919)
+1 passed, 1 warning in 2.58s
+== tests/ink_detection, this branch
+422 passed, 8 skipped, 16 warnings in 45.04s
